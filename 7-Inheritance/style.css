@@ -1,7 +1,7 @@
-p.green{
+p.green {
     color: green;
-}
-
-.blue{
+  }
+  
+.parent .blue {
     color: blue;
-}
+  }
