@@ -1,19 +1,23 @@
-.main{
-    background-color: blue;
-    width: 500px;
-    height: 500px;
+.badge{
+    width: 100px;
+    height: 100px;
+    background-color: #cacaca;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
     position: relative;
 }
 
-.main .block{
-    background-color: white;
-    height: 50px;
-    width: 100px;   
-}
-
-.block-1{
+.badge .label{
+    height: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    right: 0;
+    top: 0;
+    transform: translate(50%,-50%);
+    border-radius: 40px;
+    padding: 1px 5px;
+    border: 1px solid white;
 }
