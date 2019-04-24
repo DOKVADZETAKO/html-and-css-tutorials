@@ -1,27 +1,23 @@
-.message{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 400px;
-    padding: 10px;
-    border: 1px solid grey;
+.divided{
+    height: 20px;
+    position: relative;
+    text-align: center;
 }
 
-.message a{
-    text-decoration: none;
-    color:grey;
+.divided:after{
+    content: '';
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: block;
     position: absolute;
-    top: 10px;
-    right: 10px;
-}
-.message p{
-    color:black;
-    font-size: 20px;
+    top: 50%;
+    z-index: 1;
 }
 
-.message span{
-    color: grey;
-    width: 400px;
+.divided span{
+    z-index: 2;
+    background-color: #fff;
     display: inline-block;
-
+    position: relative;
+    padding: 0 10px;
 }
