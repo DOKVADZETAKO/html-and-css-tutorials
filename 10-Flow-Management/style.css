@@ -4,27 +4,32 @@ main{
 
 }
 
-header, .col-1, .col-2, .col-3, footer{
-    background-color: blue;
+.row div{
     height: 150px;
+    background-color: blue;
     margin-bottom: 30px;
-}
-
-header{
-    width: 100%;
-}
-
-.col-1, .col-2, .col-3{
-    width: 180px;
-    float: left;
     margin-right: 30px;
 }
 
-.row .cell:last-child{
+.row{
+    clear: both;
+}
+
+.col-3{
+    width: 100%;
+}
+
+.col-1{
+    width: 180px;
+    float: left;
+}
+
+.row div:last-child{
     margin-right: 0;
 }
 
-footer{
-    clear: both;
+.col-2{
+    width: 390px;
+    float: left;
 }
 
